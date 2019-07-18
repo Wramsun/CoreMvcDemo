@@ -26,7 +26,7 @@ namespace MvcDemoWeb.Controllers
         }
 
         public IActionResult Index()
-        {
+        { 
             _logger.LogError("打印日志");
             GetStringRequest request = new GetStringRequest()
             {
