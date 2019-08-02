@@ -11,6 +11,7 @@ using MvcDemoBusiness.Realization;
 using MvcDemoWeb.Models;
 using MvcDemoWeb.Models.Request;
 
+
 namespace MvcDemoWeb.Controllers
 {
     public class HomeController : Controller
@@ -26,7 +27,7 @@ namespace MvcDemoWeb.Controllers
         }
 
         public IActionResult Index()
-        { 
+        {
             _logger.LogError("打印日志");
             GetStringRequest request = new GetStringRequest()
             {
